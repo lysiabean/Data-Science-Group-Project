@@ -1,0 +1,30 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contentbox {
+	width: 841px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#valuearea, #calcarea {
+	text-align: center;
+}
+
+#grapharea {
+	height: 541px;
+	width: 861px;
+}
+
+#percentimg {
+	width: 900px;
+	height: 541px;
+}
+
+#graphimg {
+	position: absolute;
+	opacity: 0.5;
+	padding-left: 30px;
+}

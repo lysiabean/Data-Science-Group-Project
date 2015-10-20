@@ -1,0 +1,38 @@
+<!DOCTYPE HTML> 
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="graphs.js" type="text/javascript"></script>
+		<link href="graphs.css" type="text/css" rel="stylesheet" />
+		<title>Seattle Car Accidents Graph</title>
+	</head>
+	<body>
+		<div id="contentbox">
+			<div id="valuearea">
+				<select id="visibility" name="visibility">
+					<option value="0">0-5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10" selected>10</option>
+				</select>
+				Visibility
+				<input type="checkbox" id="rain" name="rain" value="rain">Rain
+				<input type="checkbox" id="highway" name="highway" value="highway">Highway
+				<input type="checkbox" id="line" name="line" value="line">Line
+				<input type="checkbox" id="bar" name="bar" value="bar" checked>Bar
+				<button id="submitbutton">Submit</button>
+			</div>
+			<div id="grapharea">
+				<img id="graphimg" src="">
+				<img id="percentimg" src="">
+			</div>
+			<div id="calcarea">
+				<input type="text" id="hours" maxlength="2" size="1">
+				<button id="calcbutton">Calculate</button>
+				<span id="calcvalue">Empty</p>
+			</div>
+		</div>
+	</body>
+</html>
